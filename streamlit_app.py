@@ -19,7 +19,7 @@ from annotated_text import annotated_text as atext
 
 
 def create_session():    
-       conn = snowflake.connector.connect(**st.secrets["snowflake"])          
+       conn = snowflake.connector.connect(**st.secrets["snowflake2"])          
        return conn
 curr_sess = create_session()
 
